@@ -6,14 +6,6 @@ table
 {
     border-collapse: collapse;
     border: 1px solid black;
-}
-
-.otsikko 
-{
     text-align: left;
-}
-
-.teksti
-{
-    text align: center;
+    width: 500px;
 }
