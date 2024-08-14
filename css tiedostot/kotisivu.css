@@ -1,0 +1,10 @@
+.valikko
+{
+    text-align: center;
+}
+
+.tietoa
+{
+    text-align: right;
+    display: flex;
+}
