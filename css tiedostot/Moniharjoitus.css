@@ -1,0 +1,27 @@
+body {
+    width: 750px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+table, tr, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td 
+{
+    width: 70px;
+    padding: 0 20px;
+}
+
+.fat 
+{
+    font-weight: bold;
+}
+
+img
+{
+    height: 150px;
+}
