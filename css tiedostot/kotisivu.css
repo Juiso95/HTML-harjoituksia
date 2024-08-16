@@ -1,5 +1,5 @@
 body {
-    max-width: 1900px;
+    max-width: 1800px;
     background-color: #a88769;
 }
 
@@ -60,4 +60,16 @@ h1, h2, h3, p, ul{
 
 dd{
     color: beige;
+}
+
+footer{
+    background-color: #bb936d;
+    height: 35px;
+    margin: -20px;
+    padding-left: 20px;
+}
+
+footer p{
+    padding: 10px;
+    color: #000;
 }
