@@ -1,0 +1,63 @@
+body {
+    max-width: 1900px;
+    background-color: #a88769;
+}
+
+header{
+    height: 100px;
+    background-color: #bb936d;
+}
+
+aside{
+    width: 200px;
+    float: right;
+    padding-top: 20px;
+}
+
+article{
+    background-color: #886340;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+section{
+    width: 800px;
+    margin-top: -20px;
+}
+
+main{
+    width: 760px;
+    background-color: #886340;
+    padding: 20px;
+}
+
+.valikko{
+    padding: 20px;
+    margin: 30px;
+    font-size: 16px;
+}
+
+nav{
+    padding-left: 200px;
+}
+
+span{
+    background-color: #e4ae7c;
+}
+
+.viiva{
+    color: black;
+}
+
+.lahde{
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, p, ul{
+    color: white;
+}
+
+dd{
+    color: beige;
+}
