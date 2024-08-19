@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomake</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form>
+        <label for="enimi">Anna Etunimi</label><br />
+        <input type="text" id="enimi" name="enimi"><br />
+        <label for="snimi">Anna Sukunimi</label><br />
+        <input type="text"id="snimi" name="snimi"><br />
+        <fieldset>
+            <legend>Henkilötiedot</legend>
+            <label for="fname">Anna Etunimi</label><br />
+            <input type="text" id="fname" name="fname"><br />
+            <label for="lname">Anna Sukunimi</label><br />
+            <input type="text" id="lname" name="lname">
+        </fieldset><br />
+        <label for="saine">Suosikki aine koulussa</label><br />
+            <select>
+                <option value="liikunta">Liikunta</option>
+                <option value="ohjelmointi">Ohjelmointi</option>
+                <option value="ruotsi">Ruotsi</option>
+                <option value="englanti">Englanti</option>
+                <option value="matematiikka">Matematiikka</option>
+                <option value="fysiikka/kemia">Fysiikka ja Kemia</option>
+            </select>
+        <label for="selain">Valitse suosikki selaimesi</label>
+        <input type="datalist">
+    </form>
+</body>
+</html>
