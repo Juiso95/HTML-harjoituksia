@@ -1,0 +1,16 @@
+.laatikko{
+    width: 200px;
+    margin: 20px auto;
+}
+
+body{
+    text-align: center;
+}
+
+.htiedot{
+    padding: 10px 20px 20px 20px;
+}
+
+.kulku{
+    text-align: left;
+}

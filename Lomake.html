@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lomake</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Lomake.css">
 </head>
 <body>
-    <form>
+    <form class="laatikko">
         <label for="enimi">Anna Etunimi</label><br />
         <input type="text" id="enimi" name="enimi"><br />
         <label for="snimi">Anna Sukunimi</label><br />
         <input type="text"id="snimi" name="snimi"><br />
-        <fieldset>
+        <fieldset class="htiedot">
             <legend>Henkilötiedot</legend>
             <label for="fname">Anna Etunimi</label><br />
             <input type="text" id="fname" name="fname"><br />
@@ -27,9 +27,22 @@
                 <option value="englanti">Englanti</option>
                 <option value="matematiikka">Matematiikka</option>
                 <option value="fysiikka/kemia">Fysiikka ja Kemia</option>
-            </select>
-        <label for="selain">Valitse suosikki selaimesi</label>
+            </select><br><br>
+        <label for="selain">Valitse suosikki selaimesi</label><br>
         <input type="datalist">
+        <br>
+        <br>
+        <section class="kulku">
+        <legend>Millä seuraavista kuljet mieluiten?</legend>
+        <input type="checkbox" id="auto" name="auto" value="auto">
+        <label for="auto">Oma auto</label><br>
+        <input type="checkbox" id="mpyörä" name="mpyörä" value="mpyörä">
+        <label for="mpyörä">Moottoripyörä</label><br>
+        <input type="checkbox" id="ppyörä" name="ppyörä" value="ppyörä">
+        <label for="ppyörä">Polkupyörä</label><br>
+        <input type="checkbox" id="julkiset" name="julkiset" value="julkiset">
+        <label for="julkiset">julkiset</label>
+        </section>
     </form>
 </body>
 </html>
