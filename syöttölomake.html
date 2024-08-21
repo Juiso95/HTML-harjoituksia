@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syöttölomake</title>
+    <link rel="stylesheet" href="syöttölomake.css">
+</head>
+<body>
+    <form>
+        <h1>Syöttölomake</h1>
+        <!-- Teksti syöttö -->
+        <label for="Nimi">Nimi:</label>
+        <input required type="text" id="Nimi" name="Nimi" />
+        <!-- Sähköposti syöttö -->
+        <label for="Sähköposti">Sähköposti:</label>
+        <input required type="email" id="Sähköposti" />
+        <!-- Salasana syöttö -->
+        <label for="Salasana">Salasana:</label>
+        <input type="password" id="Salasana" minlength="10"/>
+        <!-- Numero syöttö -->
+        <label for="Numero">Numero:</label>
+        <input type="number" id="Numero" />
+        <!-- Tekstialue syöttö -->
+        <label for="textarea">Tekstialue:</label>
+        <textarea id="textarea" cols="20" rows="10"></textarea>
+        <!-- Pudotusvalikko syöttö -->
+        <label for="dropdown">Pudotusvalikko:</label>
+        <select id="Autot">
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Citroen">Citroen</option>
+            <option value="Dacia">Dacia</option>
+            <option value="Ford">Ford</option>
+            <option value="GMC">GMC</option>
+            <option value="Honda">Honda</option>
+            <option value="Infinity">Infinity</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Kia">Kia</option>
+            <option value="Lancia">Lancia</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Opel">Opel</option>
+            <option value="Pontiac">Pontiac</option>
+            <option value="Renault">Renault</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Uaz">Uaz</option>
+            <option value="Volkswagen">VW</option>
+            <option value="ZAZ">ZAZ</option>
+        </select>
+        <!-- Monivalinta syöttö -->
+        <label for="osaan">Osaan:</label>
+        <label for="checkbox" class="cb">HTML</label>
+        <input type="checkbox" id="HTML" />
+        <label for="checkbox" class="cb">CSS</label>
+        <input type="checkbox" id="CSS" />
+        <label for="checkbox" class="cb">Java Script</label>
+        <input type="checkbox" id="Java" />
+        <!-- Yhden valinnan syöttö -->
+         <label for="syonkoulussa">Syön koulussa:</label>
+         <label for="syon" class="rb">Syön</label>
+         <input type="radio" id="syon" name="syo" />
+         <label for="ensyo" class="rb">En syö</label>
+         <input type="radio" name="syo" id="ensyo" />
+         <!-- Värivalitsin -->
+         <label for="color">Väri</label>
+         <input type="color" id="color" />
+        <!-- Päivämäärä valitsin -->
+         <label for="date">Päivämäärä</label>
+         <input type="date" id="date" />
+        <!-- Viikko valitsin -->
+        <label for="week">Viikko</label>
+        <input type="week" id="week" />
+        <!-- Kuukausi valitsin -->
+        <label for="month">Kuukausi</label>
+        <input type="month" id="month" />
+        <!-- Liukuvalitsin -->
+        <label for="range">Liukuvalitsin</label>
+        <input type="range" id="range" />
+        <!-- URL Syöttö -->
+         <label class="url" for="url">URL</label>
+         <input type="url" id="url" />
+         <!-- Lähetä painike -->
+          <input type="submit" value="Lähetä" />
+    </form>
+</body>
+</html>

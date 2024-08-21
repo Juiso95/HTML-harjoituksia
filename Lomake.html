@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lomake</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Lomake.css">
 </head>
 <body>
     <form>
+        <!--Etu ja Sukunimi-->
         <label for="enimi">Anna Etunimi</label><br />
         <input type="text" id="enimi" name="enimi"><br />
         <label for="snimi">Anna Sukunimi</label><br />
         <input type="text"id="snimi" name="snimi"><br />
+        <!--Henkilötiedot (laatikko)-->
         <fieldset>
             <legend>Henkilötiedot</legend>
             <label for="fname">Anna Etunimi</label><br />
@@ -19,6 +21,7 @@
             <label for="lname">Anna Sukunimi</label><br />
             <input type="text" id="lname" name="lname">
         </fieldset><br />
+        <!--Suosikki aineen valinta-->
         <label for="saine">Suosikki aine koulussa</label><br />
             <select>
                 <option value="liikunta">Liikunta</option>
@@ -27,9 +30,36 @@
                 <option value="englanti">Englanti</option>
                 <option value="matematiikka">Matematiikka</option>
                 <option value="fysiikka/kemia">Fysiikka ja Kemia</option>
-            </select>
-        <label for="selain">Valitse suosikki selaimesi</label>
-        <input type="datalist">
+            </select><br />
+        <label for="selain">Valitse suosikki selaimesi</label><br />
+        <input list="browsers"><br /><br />
+        <datalist id="browsers">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist><br />
+        <!--Kulkuneuvon valinta-->
+            <section>
+                <legend>Millä seuraavista kuljet mieluiten?</legend>
+                <input type="checkbox" id="auto" name="auto" value="auto">
+                <label class="kulku" for="auto">Oma auto</label><br />
+                <input type="checkbox" id="mpyörä" name="mpyörä" value="mpyörä">
+                <label class="kulku" for="mpyörä">Moottoripyörä</label><br />
+                <input type="checkbox" id="ppyörä" name="ppyörä" value="ppyörä">
+                <label class="kulku" for="ppyörä">Polkupyörä</label><br />
+                <input type="checkbox" id="julkiset" name="julkiset" value="julkiset">
+                <label class="kulku" for="julkiset">julkiset</label>
+            </section><br /><br />
+            <!--Käyttäjätunnuksen syöttö-->
+            <label for="käyttäjä">Käyttäjät tunnus</label><br />
+            <input type="text" id="käyttäjä" name="käyttäjä"><br />
+            <label for="password">Salasana</label><br />
+            <input type="password" id="password" name="password"><br />
+            <textarea name="viesti" id="viesti" rows="10" cols="20">Avoin palaute tähän.</textarea><br />
+        <input type="submit" name="submit" value="Lähetä">
+        <button type="button" onclick="Kiitos vastauksista!">Lähetä</button>
     </form>
 </body>
 </html>
