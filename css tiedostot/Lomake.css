@@ -1,19 +1,14 @@
-.laatikko{
-    width: 200px;
-    margin: 20px auto;
+body{
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    background-color: bisque;
 }
 
 .kulku{
     text-align: left;
 }
 
-body{
-    text-align: center;
-    margin: auto;
+form{
     width: 200px;
 }
-
-.htiedot{
-    padding: 10px 20px 20px 20px;
-}
-

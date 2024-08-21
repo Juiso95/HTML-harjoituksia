@@ -14,8 +14,6 @@ select, input, textarea{
     float: left;
 }
 
-
-
 label{
     display: block;
     width: 10em;
