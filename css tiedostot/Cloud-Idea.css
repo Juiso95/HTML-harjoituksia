@@ -1,0 +1,47 @@
+body{
+    width: 95%;
+    margin: 0px auto;
+}
+
+#logo{
+    text-align: center;
+    line-height: 0;
+}
+
+.tervetuloa{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0px auto;
+}
+
+aside{
+    border: solid;
+    width: 30%;
+    float: right;
+}
+
+li img{
+    width: 30px;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.marker {
+    width: 95%;
+    height: 2px;
+    background-color: #00227e;
+    margin: 0 auto;
+}
+
+.list {
+    width: 60%;
+    margin-left: 10px;
+}
+
+blockquote {
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+}
