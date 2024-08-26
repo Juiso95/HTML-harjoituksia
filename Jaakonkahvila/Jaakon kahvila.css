@@ -1,0 +1,73 @@
+body{
+    max-width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: bisque;
+}
+
+.nav{
+    width: 35%;
+    float: left;
+    height: 260px;
+    background-color: burlywood;
+    padding-top: 40px;
+}
+
+.linkit{
+    list-style-type: none;
+}
+
+.linkki{
+    color: black;
+    text-decoration: none;
+}
+
+.linkki:hover{
+    color: brown;
+}
+
+address{
+    width: 32%;
+    margin-left: 70px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+    margin-top: auto;
+}
+
+.sisalto{
+    background-color: rgb(255, 243, 228);
+    width: 65%;
+    height: auto;
+    float: left;
+}
+
+.sisalto img{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin: 20px;
+}
+
+.text{
+    margin: 20px;
+}
+
+main li{
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.osoite{
+    margin-top: 20px;
+}
