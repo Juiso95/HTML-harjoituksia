@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css tiedostot/Cloud-Idea.css">
 </head>
 <body>
+    <div id="sivu">
     <main>
     <header id="logo">
         <figure>
@@ -20,28 +21,10 @@
         <h1>Tervetuloa Etusivullemme</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eum!</p>
     </article>
-    <aside>
-        <h2>Aloitus</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nihil! Quia quam dolorum veniam eligendi ducimus eius asperiores blanditiis ipsa velit consequatur officia adipisci eveniet, dignissimos iure et ullam eos.</p>
-        <hr>
-        <form>
-            <label for="name">Nimi*</label>
-            <input type="text" id="name"><br>
-            <label for="email">Sähköposti*</label>
-            <input type="email" id="email"><br>
-            <label for="yritys">Yritys</label>
-            <input type="text" id="yritys"><br>
-            <label for="number">Puhelin</label>
-            <input type="number" id="number"><br>
-            <label for="button">* Vaaditut kentät</label>
-            <input type="button" id="button" value="lähetä">
-        </form>
-        <p>Emme koskaan jaa asiakastietoja eteenpäin millekkään yritykselle</p>
-    </aside>
     <article class="list">
         <ul>
         <li>
-            <h2><img src="Kuvat/Cloud idea/number1.png" alt="Numero 1"> Ensimmäiänen pointti</h2>
+            <h2><img src="Kuvat/Cloud idea/number1.png" alt="Numero 1"> Ensimmäinen pointti</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium deserunt incidunt enim. Enim dignissimos, voluptate sapiente incidunt nam consequuntur ducimus!</p>
         </li>
 
@@ -54,22 +37,45 @@
             <h2><img src="Kuvat/Cloud idea/number3.png" alt="Numero 3"> Kolmas pointti</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita tempore autem earum maiores doloribus recusandae debitis ut id cumque, reprehenderit hic dolorem nihil adipisci?</p>
         </li>
-        <li>
+        <li id="tietoa">
             <h2>Tietoa meistä</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, excepturi!</p>
         </li>
         </ul>
     </article>
+        <aside>
+        <h2>Aloitus</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nihil! Quia quam dolorum veniam eligendi ducimus eius asperiores blanditiis ipsa velit consequatur officia adipisci eveniet, dignissimos iure et ullam eos.</p>
+        <hr>
+        <form>
+            <label for="name">Nimi*</label>
+            <input type="text" id="name" required><br>
+            <label for="email">Sähköposti*</label>
+            <input type="email" id="email" required><br>
+            <label for="yritys">Yritys</label>
+            <input type="text" id="yritys"><br>
+            <label for="number">Puhelin</label>
+            <input type="number" id="number"><br>
+            <label for="button">* Vaaditut kentät</label>
+            <input class="button" type="submit" id="button" value="lähetä">
+        </form>
+        <section id="emme">
+            <div class="viiva"></div>
+            <p>Emme koskaan jaa asiakastietoja eteenpäin millekkään yritykselle</p>
+        </section>
+    </aside>
     <section>
         <blockquote>
-            <p><img src="Kuvat/Cloud idea/testimonial.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, veniam, consequatur laudantium cupiditate unde, illo debitis veritatis esse praesentium dicta tenetur a deserunt aperiam consequuntur neque vel tempora nemo eius voluptatum odio maiores! Voluptatum beatae, molestias ab totam labore similique.</p>
+            <img src="Kuvat/Cloud idea/testimonial.png" alt="Cloud idea puhekupla">
+            <p class="alateksti">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, veniam, consequatur laudantium cupiditate unde, illo debitis veritatis esse praesentium dicta tenetur a deserunt aperiam consequuntur neque vel tempora nemo eius voluptatum odio maiores! Voluptatum beatae, molestias ab totam labore similique.</p>
         </blockquote>
     </section>
-            <hr>
         <footer id="footer">
-            <small>Copyright &copy; Juuso Sandelin 2024</small>
+            <hr>
+            <small class="harmaa">Copyright &copy; Juuso Sandelin 2024</small>
         </footer>
     </section>
     </main>
+    </div>
 </body>
 </html>

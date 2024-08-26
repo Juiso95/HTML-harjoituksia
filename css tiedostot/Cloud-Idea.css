@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
 body{
     width: 80%;
     margin: 0px auto;
@@ -16,8 +18,19 @@ body{
 
 aside{
     border: solid;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    border-width: 0.2rem;
     width: 30%;
     float: right;
+    clear: right;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    margin-top: -420px;
+}
+
+aside #emme{
+    color: #9c0000;
 }
 
 li img{
@@ -44,22 +57,133 @@ blockquote {
     text-align: center;
 }
 
+blockquote p{
+    margin-left: 50px;
+}
+
+blockquote img{
+    float: left;
+    clear: bottom;
+}
+
 footer {
     text-align: center;
+    margin-top: 50px;
 }
 
-#name{
-    margin-left: 39px;
+label{
+    display: block;
+    width: 10rem;
+    float: left;
+    clear: left;
 }
 
-#email{
-    margin-left: 1px;
+form #button{
+    float: right;
+    margin-right: 34px;
 }
 
-#yritys{
-    margin-left: 40px;
+.button:hover{
+    background-color: #ff3c00;
+    display: block;
+    border-radius: 10px;
 }
 
-#number{
-    
+.harmaa{
+    color: #ababab;
+}
+
+.alateksti{
+    color: #888888;
+}
+
+#tietoa{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 0.8rem;
+}
+
+h1, h2{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.viiva {
+    width: 100%;
+    height: 2px;
+    background-color: #888888;
+    margin: 30px 0px 5px 0px;
+}
+
+@media (max-width:1020px) {
+    #sivu{
+        width: 80%;
+    }
+
+    li .list{
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    li img{
+        padding-top: 10px;
+    }
+
+    aside, .list{
+        width: 100%;
+        clear: both;
+        float: left;
+        margin: 0 auto 20px
+    }
+
+    blockquote img{
+        display: block;
+        margin: 20px auto;
+        float: none;
+    }
+
+    label{
+        display: block;
+        width: 10rem;
+        float: left;
+        clear: left;
+    }
+}
+
+@media (max-width:800px) {
+    h1{
+        font-size: 1.7rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    aside, .list{
+        width: 100%;
+        clear: both;
+        float: none;
+        margin: 0 auto 20px
+    }
+
+    form{
+        clear: both;
+        padding: 20 30px;
+    }
+
+@media (min-width:480px){
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
 }
