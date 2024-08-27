@@ -11,6 +11,7 @@ header{
     background-color: bisque;
 }
 
+/* Linkkien hienosäätö */
 .nav{
     width: 35%;
     float: left;
@@ -32,12 +33,15 @@ header{
     color: brown;
 }
 
+/* Osoite */
 address{
     width: 32%;
     margin-left: 70px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
+/* Copyright */
 footer{
     width: 100%;
     text-align: center;
@@ -45,6 +49,7 @@ footer{
     margin-top: auto;
 }
 
+/* Sisältö */
 .sisalto{
     background-color: rgb(255, 243, 228);
     width: 65%;
@@ -58,7 +63,7 @@ footer{
     float: right;
     margin: 20px;
 }
-
+/* Valikon tasaus muihin ikkunoihin */
 .text{
     margin: 20px;
 }
@@ -71,3 +76,24 @@ main li{
 .osoite{
     margin-top: 20px;
 }
+
+/* Menu */
+
+.list p{
+    line-height: 1rem;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.kahvi{
+    text-align: left;
+    width: 25%;
+}
+
+.hinta{
+    text-align: right;
+    width: 25%;
+}
+
