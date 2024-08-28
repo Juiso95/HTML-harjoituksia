@@ -1,0 +1,18 @@
+body{
+
+}
+
+th{
+    font-size: 2rem;
+    background-color: black;
+    color: aquamarine;
+}
+
+td{
+    padding: 1px 10px;
+    background-color: #0cf;
+}
+
+.nappulat{
+    text-align: center;
+}

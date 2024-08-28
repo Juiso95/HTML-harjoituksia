@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta value="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomakeharjoitus 1</title>
+    <link rel="stylesheet" href="Lomakeharjoitus1.css">
+</head>
+<body>
+    <div>
+    <form>
+        <table border="5" cellspacing="5px">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <!-- Password -->
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="password" required></td>
+            </tr>
+            <!-- Address -->
+            <tr>
+                <td>Enter Address</td>
+                <td><input type="text"></td>
+            </tr>
+            <!-- Game -->
+            <tr>
+                <td>Select Game</td>
+                <td>
+                    <label for="Hockey">Hockey</label>
+                    <input type="checkbox" id="Hockey" value="Hockey"><br>
+                    <label for="Football">Football</label>
+                    <input type="checkbox" id="Football" value="Football"><br>
+                    <label for="Cricket">Cricket</label>
+                    <input type="checkbox" id="Cricket" value="Cricket"><br>
+                    <label for="Badminton">Badminton</label>
+                    <input type="checkbox" id="Badminton" value="Badminton"><br>
+                    <label for="Volleyball">Volleyball</label>
+                    <input type="checkbox" id="Volleyball" value="Volleyball"><br>
+                </td>
+            </tr>
+            <!-- Gender -->
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" value="Male" name="s1" checked="true">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" value="Female" name="s1">
+                </td>
+            </tr>
+            <!-- Age -->
+            <tr>
+                <td>Select your age</td><td>
+                <select name="age" id="age">
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22 ->">22 or more</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+            <!-- Select photo -->
+                <td>Select Photo</td>
+                <td><input type="file" />
+            </td></tr>
+            <tr class="nappulat"><td colspan="2">
+                <input type="button" value="Click Me">
+                <input type="reset" value="Palauta">
+                <input type="submit" value="Submit Form">
+            </td></tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
