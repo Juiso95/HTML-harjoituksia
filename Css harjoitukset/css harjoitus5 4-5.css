@@ -1,0 +1,21 @@
+/* Tehtävä 3 */
+#eka{
+    width: 50%;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+/* Tehtävä 4 */
+#para p:first-child {
+    color: rgb(0, 196, 0);
+    font-size: 28px;
+}
+
+#para + p{
+    background-color: aqua;
+}
+
+p[title="para"]{
+    font-weight: 900;
+}

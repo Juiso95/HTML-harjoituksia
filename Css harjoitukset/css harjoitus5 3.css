@@ -1,0 +1,35 @@
+.eka{
+    padding: 10px;
+    background-color: antiquewhite;
+    position: relative;
+    z-index: 1;
+}
+
+.toinen{
+    padding: 10px;
+    background-color: aqua;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.kolmas{
+    width: 40%;
+    height: 100px;
+    overflow: auto;
+}
+
+.vasen{
+    float: left;
+    background-color: bisque;
+}
+
+.oikea{
+    float: right;
+    background-color: blanchedalmond;
+}
+
+.ala{
+    clear: both;
+    background-color: aquamarine;
+}

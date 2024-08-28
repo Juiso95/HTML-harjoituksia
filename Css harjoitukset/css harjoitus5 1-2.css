@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+}
+
+.container{
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    margin: 70px auto;
+    padding: 30px;
+}
+
+.main{
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    color: red;
+    border: 5px solid black;
+    outline: 20px solid green;
+    line-height: 1.2rem;
+    font-size: 1.5rem;
+    background-color: grey;
+}

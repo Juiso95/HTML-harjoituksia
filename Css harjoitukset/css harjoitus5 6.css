@@ -1,0 +1,42 @@
+div{
+    background-color: gray;
+    padding: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+aside, article{
+    padding: 10px;
+    background-color: burlywood;
+    text-align: left;
+}
+
+header, footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: bisque;
+    text-align: center;
+    line-height: 0.5rem;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 100px;
+}
+
+img{
+    float: left;
+    padding: 10px;
+}
+
+li{
+    margin-right: 20px;
+    margin-left: -20px;
+    padding: 5px;
+}
