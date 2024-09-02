@@ -1,0 +1,109 @@
+body{
+    width: 60%;
+    margin: auto;
+}
+
+div{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+    row-gap: 0px;
+    background-color: #64B054;
+}
+
+header{
+    line-height: 0.5rem;
+    margin-left: 20px;
+}
+
+article section{
+    width: 65%;
+    float: left;
+    margin: 0px 5px;
+    padding: 10px;
+}
+
+/* Navigointi */
+header .nav{
+    line-height: 1rem;
+    margin: 10px 60px 0px 0px;
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+aside{
+    float: right; 
+    width: 25%;
+    background-color: #3F847B;
+    padding: 10px;
+}
+
+/* Footer */
+
+footer .img{
+    width: 10%;
+    height: auto;
+}
+
+.img:hover{
+    transform: scale(6);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+/* footer asettelu */
+
+footer section{
+    width: 33%;
+    float: right;
+    margin-top: -10px;
+    margin-right:-130px;
+}
+
+footer address{
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+footer img{
+    width: 33%;
+    margin-top: 10px;
+}
+
+header, footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.viiva{
+    border: 2px solid black;
+}
+
+/* logo määritys */
+
+header img{
+    height: auto;
+    width: 50px;
+    margin-bottom: -10px;
+}
