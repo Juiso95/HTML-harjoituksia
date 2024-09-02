@@ -1,0 +1,21 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+}
+
+#kuva{
+    max-width: 100%;
+    max-height: auto;
+}
+
+#otsikko{
+    margin: 20px 10px 0px 0px;
+}
+
+figure{
+    
+}
