@@ -4,7 +4,7 @@ body, html{
 
 /* Taustakuva elementtien rakenne */
 
-.k1, .k2, .k3, .k4, .k5 .parallax{
+.k1, .k2, .k3, .k4, .k5, .parallax{
     height: 100%;
     /* parallax rullaus efekti */
     background-attachment: fixed;
@@ -14,23 +14,23 @@ body, html{
 }
 
 .k1{
-    background-image: url(Projekti_kuvat/Avaruus1.jpg);
+    background-image: url("Projekti_kuvat/Avaruus1.jpg");
 }
 
 .k2{
-    background-image: url(Projekti_kuvat/Avaruus2.jpg);
+    background-image: url("Projekti_kuvat/Avaruus2.jpg");
 }
 
 .k3{
-    background-image: url(Projekti_kuvat/Avaruus3.jpg);
+    background-image: url("Projekti_kuvat/Avaruus3.jpg");
 }
 
 .k4{
-    background-image: url(Projekti_kuvat/Avaruus4.jpg);
+    background-image: url("Projekti_kuvat/Avaruus4.jpg");
 }
 
 .k5{
-    background-image: url(/Projekti_kuvat/Avaruus5.jpg);
+    background-image: url("Projekti_kuvat/Avaruus5.jpg");
 }
 
 /* Kuva linkkien fonttikoko ja tyyli */
