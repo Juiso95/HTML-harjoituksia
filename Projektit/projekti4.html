@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Projekti 4</title>
+    <link rel="stylesheet" href="projekti4.css">
+</head>
+<body>
+    <div class="container">
+    <div class="kuva"></div>
+        <form>
+            <div class="lomake">
+            <h1>Liput suomen suurimpaan lanitapahumaan</h1>
+            <ul>
+                <li>Osta liput suomen suurimpaan lanitapahtumaan joka järjestetään Helsingin jäähallissa 10.11.2024-13.11.2024.</li>
+                <li>Tapahtumassa on mahdollisuus ostaa paikka itselle tai kaveriporukalle (sisältää 4paikkaa)</li>
+                <li>Tapahtuman osallistumis hintaan sisältyy ruokailu jokaisena päivänä jolle sinulla on ostettu lippu!!</li>
+            </ul>
+            </div>
+            <table>
+                <tr>
+                    <td class="otsikko"><label for="enimi">Etunimi</label></td>
+                    <td class="vastaukset"><input type="text" id="enimi" placeholder="Etunimi" required></td>
+                </tr>
+
+                <tr>
+                    <td class="otsikko"><label for="snimi">Sukunimi</label></td>
+                    <td class="vastaukset"><input type="text" id="snimi" placeholder="Sukunimi" required></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="osoite">Osoite</label></td>
+                    <td class="vastaukset"><input type="text" id="osoite" placeholder="Osoite" required></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="nro">Puhelin numero</label></td>
+                    <td class="vastaukset"><input type="number" id="nro" placeholder="Puhelin numero" required></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="sposti">Sähköposti</label></td>
+                    <td class="vastaukset"><input type="email" id="sposti" placeholder="Sähköposti" required></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="maksaja">Osallistumis maksu:</label>
+                    <td class="vastauksetr"><input type="radio" id="pankki" value="pankki" name="maksaja" checked><label for="pankki">Verkkopankki</label><br>
+                        <input type="radio" id="pkortti" value="pkortti" name="maksaja"><label for="pkortti">Paikanpäällä kortilla</label><br>
+                        <input type="radio" id="pkateinen" value="pkateinen" name="maksaja"><label for="pkateinen">Paikanpäällä käteisellä</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="paikka">Tietokonepaikka</label></td>
+                    <td class="vastaukset"><select name="paikka" id="paikka">
+                    <option value="normaali paikka 1pv/20€">Normaali paikka 1pv/20€</option>
+                    <option value="normaali paikka 2pv/38€">Normaali paikka 2pv/38€</option>
+                    <option value="normaali paikka 3pv/50€">Normaali paikka 3pv/50€</option>
+                    <option value="ryhmä paikka 1pv/60€">Ryhmä paikka 1pv/60€</option>
+                    <option value="ryhmä paikka 2pv/110€">Ryhmä paikka 2pv/110€</option>
+                    <option value="ryhmä paikka 3pv/150€">Ryhmä paikka 3pv/150€</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="kaapelit">Lainakaapeleille tarvetta?</label></td>
+                    <td class="vastauksetr"><input type="radio" id="kylla" value="kylla" name="kaapelit"><label for="kylla">Kyllä</label><br>
+                        <input type="radio" id="ei" value="ei" name="kaapelit" checked><label for="ei">Ei</label></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="bday">Syntymäaika</label></td>
+                    <td class="vastaukset"><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="laitos">Työpaikka /<br>Opiskelupaikka</label></td>
+                    <td class="vastaukset"><input type="text" id="laitos" name="laitos"></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="nimike">Ammattinimike</label></td>
+                    <td class="vastaukset"><input type="text" id="nimike" name="nimike"></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="ruoka">Erikoisruokavalio</label></td>
+                    <td class="vastaukset"><textarea id="ruoka" name="ruoka" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="lisatieto">Lisätietoja</label></td>
+                    <td class="vastaukset"><textarea name="lisatieto" id="lisatieto" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><a href="ehdot/ilmoittautuminen/tapahtuma.lantapahtumat.com">Ilmoittautumis ehdot</a></td>
+                </tr>
+                <tr>
+                    <td class="otsikko"><label for="ehdot">Olen lukenut ilmoittautumis ehdot</label></td>
+                    <td class="vastaukset"><input type="checkbox" id="ehdot" name="ehdot"></td>
+                </tr>
+            <tr>
+                <td colspan="2" class="submit"><input type="submit"></td>
+            </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

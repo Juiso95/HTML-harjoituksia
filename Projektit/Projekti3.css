@@ -1,10 +1,32 @@
+/* responsiivisuus */
+
+@media screen (max-width:992px) {
+    .k1, .k2, .k3, .k4, .k5, .parallax{
+        max-height: 75%;
+    }
+}
+
+@media screen (max-width:600px) {
+    .k1, .k2, .k3, .k4, .k5, .parallax{
+        max-height: 50%;
+    }
+}
+
+/* Sivuston koko rakenteen muokkaus */
 body, html{
  height: 100%;
+ background-color: #170524;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 /* Taustakuva elementtien rakenne */
 
-.k1, .k2, .k3, .k4, .k5 .parallax{
+.k1, .k2, .k3, .k4, .k5, .container, .main, .parallax{
     height: 100%;
     /* parallax rullaus efekti */
     background-attachment: fixed;
@@ -13,30 +35,70 @@ body, html{
     background-size: cover;
 }
 
+/* Kuvien url */
 .k1{
-    background-image: url(Projekti_kuvat/Avaruus1.jpg);
+    background-image: url("Projekti_kuvat/Avaruus1.jpg");
 }
 
 .k2{
-    background-image: url(Projekti_kuvat/Avaruus2.jpg);
+    background-image: url("Projekti_kuvat/Avaruus2.jpg");
 }
 
 .k3{
-    background-image: url(Projekti_kuvat/Avaruus3.jpg);
+    background-image: url("Projekti_kuvat/Avaruus3.jpg");
 }
 
 .k4{
-    background-image: url(Projekti_kuvat/Avaruus4.jpg);
+    background-image: url("Projekti_kuvat/Avaruus4.jpg");
 }
 
 .k5{
-    background-image: url(/Projekti_kuvat/Avaruus5.jpg);
+    background-image: url("Projekti_kuvat/Avaruus5.jpg");
 }
 
-/* Kuva linkkien fonttikoko ja tyyli */
 
-small{
-    font-size: 0.5rem;
+/* Otsikon ja tekstin muokkaus */
+.ryhma, .lisaryhma{
+    background-color: #4D335F;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
 }
 
+.yhteystiedot{
+    background-color: #4D335F;
+    font-size: 1.5rem;
+    font-family: "Zhi Mang Xing", cursive;
+    color: white;
+    padding: 10px;
+}
+
+/* Kuvalinkkien muokkaus */
+a{
+    color: #aa8ebe;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+/* Yhteystieto linkin muokkaus */
+#sposti{
+    font-size: 1.5rem;
+    color: #aa8ebe;
+    font-family: "Zhi Mang Xing", cursive;
+    text-decoration: none;
+}
+
+/* Otsikoiden keskitys */
+
+h2, h3{
+    text-align: center;
+}
+
+.otsikko{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
