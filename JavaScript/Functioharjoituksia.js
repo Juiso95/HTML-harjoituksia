@@ -164,6 +164,7 @@ console.log(onkoPalindromi("anna"));
 console.log(onkoPalindromi("sanna"));
 console.log(onkoPalindromi("matti"));
 console.log(onkoPalindromi("eve"));
+console.log("..............................................................................................................................................");
 
 // Onko Anagrammi
 console.log("F15");
@@ -175,3 +176,60 @@ function onkoAnagrammi(sana11,sana22) {
 console.log(onkoAnagrammi("kissa", "kassi"));
 console.log(onkoAnagrammi("kairo", "koira"));
 console.log(onkoAnagrammi("hevonen", "hamsteri"));
+console.log("..............................................................................................................................................");
+
+// Taulukon keskiarvo
+console.log("F16");
+function laskeTaulukonKeskiarvo(keskiarvotaulukko) {
+    const summa = keskiarvotaulukko.reduce((arvo, numero) => arvo + numero, 0);
+    return summa / keskiarvotaulukko.length;
+}
+console.log(laskeTaulukonKeskiarvo([1,2,3,4,5]));
+console.log("..............................................................................................................................................");
+
+// Onko Karkausvuosi
+console.log("F17");
+function onkoKarkausvuosi(vuosi) {
+    return (vuosi % 4 === 0 && vuosi % 100 !== 0) || (vuosi % 400 === 0);
+}
+console.log(onkoKarkausvuosi(2016));
+console.log(onkoKarkausvuosi(2017));
+console.log(onkoKarkausvuosi(2018));
+console.log(onkoKarkausvuosi(2019));
+console.log(onkoKarkausvuosi(2020));
+console.log("..............................................................................................................................................");
+
+// Onko taulukko järjestetty
+console.log("F18");
+function onkoTaulukkoJärjestetty(jarjestettytaulukko) {
+for (let i = 0; i < jarjestettytaulukko.length - 1; i++) {
+    if (jarjestettytaulukko[i] > jarjestettytaulukko[i + 1]) {
+        return false;
+    }
+}
+return true;
+}
+console.log(onkoTaulukkoJärjestetty([1,2,3,4,5]));
+console.log(onkoTaulukkoJärjestetty([5,4,3,2,1]));
+
+// Muuta eka kirjain isoksi
+console.log("F19");
+function muutaEkaKirjainIsoksi(merkkijono1) {
+    return merkkijono1.charAt(0).toUpperCase() + merkkijono1.slice(1);
+}
+console.log(muutaEkaKirjainIsoksi("heippa!"));
+console.log("..............................................................................................................................................");
+
+// Laske Fibonacci
+function laskeFibonacci(f) {
+    if (f <= 0) return 0;
+    if (f === 1) return 1;
+    let a = 0, b = 1;
+    for (let i =2; i <= f; i++) {
+        const temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+console.log(laskeFibonacci(8));
