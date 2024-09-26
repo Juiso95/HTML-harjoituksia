@@ -71,3 +71,29 @@ function maksimi() {
 maksimi()
 console.log("...........................................................................")
 
+// Laske keskiarvo
+console.log("S06");
+function keskiarvo() {
+    let taulukko2 = [4,5,7,2,9,4];
+    let summa = 0;
+    let keskiarvo = 0;
+    for (var i = 0; i < taulukko2.length; i++) {
+        summa += taulukko2[i];
+    }
+    keskiarvo = summa / taulukko2.length;
+    console.log("Taulukon " + taulukko2 + " lukujen keskiarvo on: " + keskiarvo);
+}
+keskiarvo()
+console.log("...........................................................................")
+
+// Kirjaimet isoiksi
+console.log("S07");
+function isotKirjaimet() {
+    let taulukko3 = ["a", "b", "c", "d", "e", "f"];
+    let uusiTaulukko = [];
+    for (var i = 0; i < taulukko3.length; i++) {
+        uusiTaulukko.push(taulukko3[i].toUpperCase());
+    }
+    console.log(uusiTaulukko);
+}
+isotKirjaimet();
