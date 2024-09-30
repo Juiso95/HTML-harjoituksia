@@ -9,4 +9,5 @@ function parillinen()
     else {
         document.getElementById("vastaus").innerHTML = "Antamasi luku " + luku + " ei ole parillinen";
     }
+    event.preventDefault;
 }

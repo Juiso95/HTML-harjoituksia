@@ -9,8 +9,9 @@ function age()
     {
         document.getElementById("vastaus").innerHTML = "Voit ajaa mopoa."
     }
-    else(ika )
+    else
     {
-        document.getElementById("vastuas").innerHTML = "Voit ajaa autoa."
+        document.getElementById("vastaus").innerHTML = "Voit ajaa autoa."
     }
+    event.preventDefault;
 }

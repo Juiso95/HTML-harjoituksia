@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Käännä teksti</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="teksti">Valitse kieli</label><br>
+            <select name="kieli" id="kieli">
+                <option value="eng" id="eng">Englanti</option>
+                <option value="swe" id="swe">Ruotsi</option>
+                <option value="esp" id="esp">Espanja</option>
+            </select>
+        </p>
+        <button type="button" onclick="kaantaja()">Käännä</button>
+    </form>
+    <p id="vastaus"></p>
+</body>
+<script src="kaantaja.js"></script>
+</html>
