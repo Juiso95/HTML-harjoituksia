@@ -13,4 +13,5 @@ function ehto3()
     {
         document.getElementById("vastaus").innerHTML = "Vuosi ei ole karkausvuosi."
     }
+    event.preventDefault;
 }

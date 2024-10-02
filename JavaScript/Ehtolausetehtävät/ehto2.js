@@ -24,4 +24,5 @@ switch (paiva) {
     paiva = "Sunnuntai";
 }
 document.getElementById("vastaus").innerHTML = "Tänään on " + paiva;
+event.preventDefault;
 }

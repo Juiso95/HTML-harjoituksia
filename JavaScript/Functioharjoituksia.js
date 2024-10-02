@@ -221,6 +221,7 @@ console.log(muutaEkaKirjainIsoksi("heippa!"));
 console.log("..............................................................................................................................................");
 
 // Laske Fibonacci
+console.log("F20");
 function laskeFibonacci(f) {
     if (f <= 0) return 0;
     if (f === 1) return 1;
@@ -233,3 +234,4 @@ function laskeFibonacci(f) {
     return b;
 }
 console.log(laskeFibonacci(8));
+console.log("..............................................................................................................................................");
