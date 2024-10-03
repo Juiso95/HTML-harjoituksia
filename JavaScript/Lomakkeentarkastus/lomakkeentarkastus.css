@@ -1,0 +1,28 @@
+form {
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    width: 350px;
+    border-radius: 15px;
+    top: 28%;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom left, white, black);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    padding: 3px;
+    color: yellow;
+}
+
+
+body {
+    background-image: linear-gradient(to right,white, black);
+}
+
+button{
+    margin: 0 160px;
+    width: 177px;
+}

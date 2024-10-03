@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomakkeen tarkastus</title>
+    <link rel="stylesheet" href="lomakkeentarkastus.css">
+</head>
+<body>
+    <form>
+        <label for="enimi">Etunimi</label>
+        <input type="text" id="enimi">
+        <label for="snimi">Sukunimi</label>
+        <input type="text" id="snimi">
+        <label for="osoite">Lähiosoite</label>
+        <input type="text" id="osoite">
+        <label for="pnro">Postinumero</label>
+        <input type="text" id="pnro">
+        <label for="ptp">Postitoimipaikka</label>
+        <input type="text" id="ptp">
+        <label for="puhnro">Puhelin</label>
+        <input type="text" id="puhnro">
+        <label for="pass">Salasana</label>
+        <input type="password" id="pass">
+        <label for="cpass">Varmista salasana</label>
+        <input type="password" required id="cpass" validateForm>
+        <button type="button" name="button" onclick="laheta()">Lähetä</button>
+    </form>
+</body>
+<script src="lomakkeentarkastus.js"></script>
+</html>
