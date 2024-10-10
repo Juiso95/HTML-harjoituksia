@@ -1,3 +1,5 @@
+//Function lottonumeroiden arpomiseen
+
 function arvo()
 {
     let numerot = [];
@@ -8,6 +10,9 @@ function arvo()
     function satunnaisetNumerot(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
+
+//Tarkastus jo arvotuille numeroille löytyykö numeroiden joukosta samoja numeroita = arpoo uudet jos on samoja
+
     while (numerot.length < numeroidenMaara) {
         let numero = satunnaisetNumerot(minNumero, maxNumero);
 
@@ -15,7 +20,12 @@ function arvo()
             numerot.push(numero);
         }
     }
-    return numerot.sort((a, b) => a - b);
+    return numerot.sort(function(a, b){return a - b});
 }
-let lottonumerot = arvo()
-document.getElementById("vastaus").innerHTML = "Arvotut lottonumerot ovat: " + lottonumerot;
+
+//Function napille jotta saadaan arvottua numerot html sivulle + arvottujen numeroiden tulostus.
+
+function tulostaNumerot() {
+    let lottonumerot = arvo();
+    document.getElementById("vastaus").innerHTML = "Arvotut lottonumerot ovat: " + lottonumerot.join(', ');
+}
