@@ -1,31 +1,34 @@
-function arvoKortit()
+let maat = ["Ruutu", "Pata", "Hertta", "Risti"];
+let numerot = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+
+// 52 kortin määrittely
+
+function arvo()
 {
-  // Korttipakan maat + Numerot
-  let pakka = [''];
-  let maat = ['&#9828;', '&#9827;', '&#9826;', '&#9825;'];
-  let numerot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
-  // Numeroiden ja maiden laskukaava
-  lasku= 0;
-  for(m = 0; m < maat.length; m++)
+  let pakka = new Array();
+
+  for (let i = 0; i < maat.length; i++)
   {
-    for(n = 0; n < numerot.length; n++)
+    for (let x = 0; x < numerot.length; x++)
     {
-      if(m == maat.lengt-1 && n == numerot.length-1)
-      {
-        pakka[lasku] = maat[m] + numerot[n];
-      }
-       else {
-        pakka[lasku] = maat[m] + numerot[n];
-        lasku++;
-       }
-     }
-   }
-  //  Korttien valinta Math.Randomilla
- let kortit = [];
- for(l = 0; l < 5; l++)
- {
-   temp = pakka[Math.floor(Math.random()*52)];
-   kortit[l] = temp;
+      let kortit = {Numero: numerot[x], maa: maat[i]};
+      pakka.push(kortti);
+    }
   }
- document.getElementById("vastaus").innerHTML = kortit;
+  return deck;
+}
+
+// Pakan sekoitus
+
+function sekoita(pakka)
+{
+  for (let i = 0; i < 1000; i++)
+  {
+    let paikka1 = Math.floor((Math.random() * pakka.length));
+    let paikka2 = Math.floor((Math.random() * pakka.length));
+    let tmp = pakka[paikka1];
+
+    pakka[paikka1] = pakka[paikka2];
+    pakka[paikka2] = tmp;
+  }
 }
