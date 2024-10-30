@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
+  <diagram name="Sivu-1" id="JTEIupWqIPNDXm7Vcgpg">
+    <mxGraphModel dx="828" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lD3j2ArpzNFzR4Gz9SZo-1" target="lD3j2ArpzNFzR4Gz9SZo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Aloitus&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lD3j2ArpzNFzR4Gz9SZo-2" target="lD3j2ArpzNFzR4Gz9SZo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-2" value="var L1,L2,L3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lD3j2ArpzNFzR4Gz9SZo-4" target="lD3j2ArpzNFzR4Gz9SZo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-4" value="pyydä luvut&lt;div&gt;taulukko&lt;/div&gt;&lt;div&gt;L1, L2, L3&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lD3j2ArpzNFzR4Gz9SZo-6" target="lD3j2ArpzNFzR4Gz9SZo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-6" value="Järjestä taulukko" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lD3j2ArpzNFzR4Gz9SZo-8" target="lD3j2ArpzNFzR4Gz9SZo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-8" value="Tulosta&lt;div&gt;L1,L2,L3&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lD3j2ArpzNFzR4Gz9SZo-10" value="Lopetus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
