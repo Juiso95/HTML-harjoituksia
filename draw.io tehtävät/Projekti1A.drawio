@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="Sivu-1" id="wiHKnCAL2lNvkiRptxjs">
-    <mxGraphModel>
+    <mxGraphModel dx="1666" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CjUYMoR-moi593UVVcOO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-1" target="CjUYMoR-moi593UVVcOO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-1" value="Aloitus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-2" value="Lopetus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-3" target="CjUYMoR-moi593UVVcOO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-3" value="Let nimi,&amp;nbsp;&lt;div&gt;pass, idea&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-13" target="CjUYMoR-moi593UVVcOO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-13" value="If Nimi.trim" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-25" target="CjUYMoR-moi593UVVcOO-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-25" value="else if&lt;div&gt;pass&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-45" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-46" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-47" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-48" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-49" target="CjUYMoR-moi593UVVcOO-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-49" value="Else if&lt;div&gt;pass.length&lt;/div&gt;&lt;div&gt;&amp;lt; 6&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-54" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-55" value="Alert&amp;nbsp;&lt;div&gt;Anna Nimi!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-56" value="Alert&amp;nbsp;&lt;div&gt;Anna salasana!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-57" value="Alert&lt;div&gt;Salasanan pitää&lt;/div&gt;&lt;div&gt;olla vähintään&lt;/div&gt;&lt;div&gt;6 merkkiä pitkä!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-58" target="CjUYMoR-moi593UVVcOO-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-58" target="CjUYMoR-moi593UVVcOO-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-58" value="Else if&lt;div&gt;idea.trim&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-60" value="Alert&lt;div&gt;Anna jokin kehitysidea tai&amp;nbsp;&lt;/div&gt;&lt;div&gt;laita kenttään -&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CjUYMoR-moi593UVVcOO-62" target="CjUYMoR-moi593UVVcOO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjUYMoR-moi593UVVcOO-62" value="Alert&lt;div&gt;Kirjautumisesi&lt;/div&gt;&lt;div&gt;on vastaanotettu!&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
