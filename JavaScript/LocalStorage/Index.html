@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h2>Paikallinen Varasto - Local Storage</h2>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="syotettyavain">
+                        <input type="text" id="syotettyarvo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" id="syottoButton" onclick="syota()">Syötä tiedot</button>
+                        <button type="button" id="listaaButton" onclick="lista()">Listaa tiedot</button>
+                    </td>
+                </tr>
+            </table><br>
+            <legend id="otsikko" style="font-size: 20px;"><strong>Paikallinen Varasto</strong></legend><br>
+            <div id="varasto">
+            </div>
+        </form>
+    </main>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
