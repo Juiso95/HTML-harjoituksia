@@ -10,3 +10,4 @@ function suurin()
     document.getElementById("vastaus2").innerHTML = "Antamistasi luvuista " + Math.max(...taulukko) + " on suurin.";
     event.preventDefault;
 }
+
