@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Sivu-1" id="i6oh6rRqAcWVTu__US2J">
-    <mxGraphModel>
+    <mxGraphModel dx="1472" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zRKU2oLz6catONwvP6rF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-1" value="Aloitus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-4" target="zRKU2oLz6catONwvP6rF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-4" value="Lukitse käännetty kortti" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-5" target="zRKU2oLz6catONwvP6rF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-5" value="Käännä&lt;div&gt;kortti&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-7" target="zRKU2oLz6catONwvP6rF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-7" value="Pidä kortit käännettynä ja lukitse ne&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-8" target="zRKU2oLz6catONwvP6rF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-8" target="zRKU2oLz6catONwvP6rF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-8" target="zRKU2oLz6catONwvP6rF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-8" value="if Kortit täsmää" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-11" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-13" value="&amp;nbsp;Käännä&amp;nbsp;&lt;div&gt;kortit&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;takaisin&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="94" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-15" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-20" target="zRKU2oLz6catONwvP6rF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-23" target="zRKU2oLz6catONwvP6rF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-23" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-26" target="zRKU2oLz6catONwvP6rF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-26" value="Lopeta&amp;nbsp;&lt;div&gt;peli kun&lt;/div&gt;&lt;div&gt;kaikki kortit käännetty&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="510" width="116" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-28" value="Lopetus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zRKU2oLz6catONwvP6rF-29" target="zRKU2oLz6catONwvP6rF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zRKU2oLz6catONwvP6rF-29" value="&amp;nbsp; Näyttää lopulliset klikkaukset ja&amp;nbsp;&lt;div&gt;kulutetun ajan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="650" width="134" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
